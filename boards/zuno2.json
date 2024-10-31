@@ -1,0 +1,24 @@
+{
+  "build": {
+    "f_cpu": "240000000L",
+    "f_flash": "80000000L",
+    "mcu": "zuno",
+    "variant": "zuno"
+  },
+  "connectivity": [
+    "z-wave"
+  ],
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "Z-Uno2",
+  "upload": {
+    "flash_size": "174KB",
+    "maximum_ram_size": 16384,
+    "maximum_size": 178176,
+    "require_upload_port": true,
+    "speed": 460800
+  },
+  "url": "https://z-uno.z-wave.me/technical/",
+  "vendor": "Z-Wave.Me"
+}

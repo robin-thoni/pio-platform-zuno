@@ -1,0 +1,41 @@
+{
+  "name": "zuno",
+  "title": "Z-Uno",
+  "description": "Z-Uno development platform",
+  "homepage": "https://z-uno.z-wave.me/",
+  "license": "Apache-2.0",
+  "keywords": [
+    "keyword_1",
+    "keyword_N"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robin-thoni/pio-platform-zuno"
+  },
+  "version": "1.0.0",
+  "frameworks": {
+    "arduino": {
+      "package": "framework-zuno2",
+      "script": "builder/frameworks/arduino.py"
+    }
+  },
+  "packages": {
+    "framework-zuno2": {
+      "type": "framework",
+      "version": "1.30010.0"
+    },
+    "toolchain-zme_make": {
+      "type": "toolchain",
+      "version": "1.401.0"
+    },
+    "toolchain-libclang": {
+      "type": "toolchain",
+      "version": "1.110001.0"
+    },
+    "toolchain-gccarmnoneeabi": {
+      "type": "toolchain",
+      "owner": "platformio",
+      "version": "1.70201.0"
+    }
+  }
+}
